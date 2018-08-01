@@ -11,7 +11,7 @@ public class MyBean {
         return myData;
     }
 
-    public void setData(String data) {
+    public void setData() {
         Joke joke = new Joke();
         myData = joke.returnJoke();
     }
