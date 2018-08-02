@@ -9,8 +9,6 @@ import android.widget.ProgressBar;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
-import com.udacity.gradle.builditbigger.BuildConfig;
-import com.udacity.gradle.builditbigger.R;
 
 
 /**
@@ -28,6 +26,8 @@ public class MainActivityFragment extends Fragment {
 
         ProgressBar progressBar = root.findViewById(R.id.progressBar);
         progressBar.setVisibility(View.INVISIBLE);
+
+
 
         AdView mAdView = (AdView) root.findViewById(R.id.adView);
         // Create an ad request. Check logcat output for the hashed device ID to
