@@ -22,7 +22,7 @@ public class TestAsyncJoke {
     @Rule
     public ActivityTestRule<MainActivity> mainActivityActivityRule = new ActivityTestRule<>(MainActivity.class);
 
-
+    // Test that AsyncJoke returns a non-null string to the activity
     @Test
     public void testAsyncJoke(){
 
