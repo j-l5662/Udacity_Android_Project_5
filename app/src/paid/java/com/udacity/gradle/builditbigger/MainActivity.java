@@ -30,7 +30,15 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    @Override
+    protected void onPause() {
+        super.onPause();
+        ProgressBar progressBar = getSupportFragmentManager().findFragmentById(R.id.fragment)
+                .getView().findViewById(R.id.progressBar);
 
+        progressBar.setVisibility(View.INVISIBLE);
+
+    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.

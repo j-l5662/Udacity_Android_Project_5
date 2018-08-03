@@ -2,6 +2,6 @@ package com.johannlau.jokelibrary;
 
 public class Joke {
     public String returnJoke() {
-        return "Funny Joke Version 2";
+        return "A bug in the code is worth two in the documentation.";
     }
 }

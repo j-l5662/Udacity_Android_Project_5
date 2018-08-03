@@ -49,6 +49,15 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    @Override
+    protected void onPause() {
+        super.onPause();
+        ProgressBar progressBar = getSupportFragmentManager().findFragmentById(R.id.fragment)
+                .getView().findViewById(R.id.progressBar);
+
+        progressBar.setVisibility(View.INVISIBLE);
+
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
