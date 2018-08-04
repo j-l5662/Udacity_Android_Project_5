@@ -45,7 +45,7 @@ public class TestAsyncJoke {
             }
 
         };
-        endPointAsyncTask.execute(new Pair<>(context,"Joke"));
+        endPointAsyncTask.execute(context);
         latch.await();
 
     }

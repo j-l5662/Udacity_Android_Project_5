@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onAdClosed() {
                 super.onAdClosed();
-                new EndPointAsyncTask().execute(new Pair<Context, String>(MainActivity.this,"Joke"));
+                new EndPointAsyncTask().execute(MainActivity.this);
             }
         });
     }

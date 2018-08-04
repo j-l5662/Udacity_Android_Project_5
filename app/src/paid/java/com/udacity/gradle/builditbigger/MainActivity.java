@@ -55,6 +55,6 @@ public class MainActivity extends AppCompatActivity {
                 .getView().findViewById(R.id.progressBar);
 
         progressBar.setVisibility(View.VISIBLE);
-        new EndPointAsyncTask().execute(new Pair<Context, String>(this,"Joke"));
+        new EndPointAsyncTask().execute(this);
     }
 }
