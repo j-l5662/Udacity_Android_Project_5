@@ -30,7 +30,6 @@
     <orderEntry type="module" module-name="jokelibrary" exported="" />
     <orderEntry type="module" module-name="jokelibrary" exported="" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="endpoints-framework-2.0.9" level="project" />
-    <orderEntry type="library" exported="" scope="PROVIDED" name="javax.inject-1" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="google-api-client-appengine-1.21.0" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="google-oauth-client-appengine-1.21.0" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="google-api-client-servlet-1.21.0" level="project" />
@@ -38,6 +37,7 @@
     <orderEntry type="library" exported="" scope="PROVIDED" name="servlet-api-2.5" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="google-api-client-1.23.0" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="google-http-client-android-1.23.0" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="javax.inject-1" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="swagger-core-1.5.9" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="guava-19.0" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="swagger-models-1.5.9" level="project" />
@@ -68,7 +68,6 @@
     <orderEntry type="library" exported="" scope="PROVIDED" name="commons-logging-1.1.1" level="project" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="commons-codec-1.3" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="endpoints-framework-2.0.9" level="project" />
-    <orderEntry type="library" exported="" scope="RUNTIME" name="javax.inject-1" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="google-api-client-appengine-1.21.0" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="google-oauth-client-appengine-1.21.0" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="google-api-client-servlet-1.21.0" level="project" />
@@ -76,6 +75,7 @@
     <orderEntry type="library" exported="" scope="RUNTIME" name="servlet-api-2.5" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="google-api-client-1.23.0" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="google-http-client-android-1.23.0" level="project" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="javax.inject-1" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="swagger-core-1.5.9" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="guava-19.0" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="swagger-models-1.5.9" level="project" />
@@ -106,7 +106,6 @@
     <orderEntry type="library" exported="" scope="RUNTIME" name="commons-logging-1.1.1" level="project" />
     <orderEntry type="library" exported="" scope="RUNTIME" name="commons-codec-1.3" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="endpoints-framework-2.0.9" level="project" />
-    <orderEntry type="library" exported="" scope="TEST" name="javax.inject-1" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="google-api-client-appengine-1.21.0" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="google-oauth-client-appengine-1.21.0" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="google-api-client-servlet-1.21.0" level="project" />
@@ -114,6 +113,7 @@
     <orderEntry type="library" exported="" scope="TEST" name="servlet-api-2.5" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="google-api-client-1.23.0" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="google-http-client-android-1.23.0" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="javax.inject-1" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="swagger-core-1.5.9" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="guava-19.0" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="swagger-models-1.5.9" level="project" />
